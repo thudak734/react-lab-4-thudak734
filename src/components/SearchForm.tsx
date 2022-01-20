@@ -20,7 +20,8 @@ export function SearchForm({ onSubmit }: Props) {
 
 return (
     <div className="SearchForm" onSubmit={onFormSubmit}>
-        <div>search for gif</div>
+        <h2>Search for a GIF</h2>
+        
         <form action="" className="inputForm">
             <input
                 type="text"
@@ -28,9 +29,10 @@ return (
                 id="search"
                 placeholder="search"
                 value={search}
-                onChange={(e) => setSearch(e.target.value)}
-            />
-            <button type="submit">Search</button>
+                onChange={(e) => setSearch(e.target.value)}/>
+                <button type="submit"><i className="fa fa-search"></i></button>
+            
+            
         </form>
     </div>
 )

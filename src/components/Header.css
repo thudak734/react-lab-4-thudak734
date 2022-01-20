@@ -1,0 +1,10 @@
+h1{
+    color: white;
+    position: relative;
+}
+
+.giphy{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
