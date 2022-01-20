@@ -3,8 +3,30 @@ h1{
     position: relative;
 }
 
+h3{
+    color: white;
+}
+
 .giphy{
     position: absolute;
     top: 8px;
     right: 16px;
+}
+
+.Results{
+    
+    background-color: rgb(73, 73, 73);
+    padding: 15px;
+    width: 50%;
+    box-shadow: 10px 10px white;
+    margin: 30px;
+}
+
+
+.ResultsList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
 }

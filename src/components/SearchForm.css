@@ -9,10 +9,15 @@
   padding: 50px;
 }
 
+form{
+  padding: 20px 150px 20px 150px;
+  
+}
+
 input {
   box-sizing: border-box;
   padding: 10px;
-  text-align: right;
+  text-align: left;
   font-size: 17px;
   border: 1px solid grey;
   width: 80%;
